@@ -25,12 +25,10 @@ function Home2() {
                 <b className="purple"> Inbound Marketing, Social Media </b> e <b className="purple">Asessoria de Imprensa. </b>
               <br />
               <br />
-            Entre os meus interesses estão &nbsp;
-                <b className="purple">Marketing de performance </b> em áreas como 
+               Meus interesses em <b className="purple">Marketing</b> e <b className="purple"> Comunicação</b> estão em áreas como 
                 {" "}
-                <b className="purple">
-                  Automação, Ads, Social Media,
-                </b> Jornalismo e Tecnologia.
+                <b className="purple"> Automação</b>, <b className="purple"> Ads </b>, <b className="purple"> Social Media </b> e <b className="purple"> Growth
+                </b>.
               <br />
               <br />
               Sou certificado em  <b className="purple">RD Station</b>,
