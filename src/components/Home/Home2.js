@@ -22,7 +22,7 @@ function Home2() {
               e, claro, sem deixar a diversão de lado. 🤷‍♂️
               <br />
               <br />Sou graduado em Comunicação com experiência em
-                <b className="purple"> Inbound Marketing, Estratégias de Conteúdo </b> e <b className="purple">Asessoria de Imprensa. </b>
+                <b className="purple"> Inbound Marketing, Social Media </b> e <b className="purple">Asessoria de Imprensa. </b>
               <br />
               <br />
             Entre os meus interesses estão &nbsp;
