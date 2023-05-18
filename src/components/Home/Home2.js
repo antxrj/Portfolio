@@ -18,11 +18,11 @@ function Home2() {
               UM POUCO<span className="purple"> SOBRE </span> MIM
             </h1>
             <p className="home-about-body">
-              Redator, publicitário, Analista de Marketing. Comunicação em diversos formatos para encantar, engajar, converter... 
+              Redator, publicitário, analista de marketing. Comunicação em diversos formatos para encantar, engajar, converter... 
               e, claro, sem deixar a diversão de lado. 🤷‍♂️
               <br />
               <br />Sou graduado em Comunicação com experiência em
-                <b className="purple"> Inbound Marketing, Social Media </b> e <b className="purple">Asessoria de Imprensa. </b>
+                <b className="purple"> Inbound Marketing, Social Media </b> e <b className="purple">Assessoria de Imprensa. </b>
               <br />
               <br />
                Meus interesses em <b className="purple">Marketing</b> e <b className="purple"> Comunicação</b> estão em áreas como 
