@@ -1,30 +1,41 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiLinux,
-  SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
-} from "react-icons/si";
+import { ImWordpress } from "react-icons/im";
+import { MdOutlineHtml } from "react-icons/md";
+import { BsMeta } from "react-icons/bs"
+import { SiAdobepremierepro, SiHotjar, SiHubspot, SiMicrosoftoffice } from "react-icons/si"
+import { AiOutlineGoogle } from "react-icons/ai"
+
+
+
+
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <AiOutlineGoogle  />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <ImWordpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <MdOutlineHtml />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <BsMeta />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiHubspot />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHotjar />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftoffice />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobepremierepro  />
       </Col>
     </Row>
   );

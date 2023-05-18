@@ -8,30 +8,26 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            Eu sou <span className="purple"> Gabriel Ribeiro.</span>  Pai do <b>Vicente</b> e do <b>Benjamim</b>, morador do RJ, flamenguista e churasqueiro de fim de semana.
           </p>
+          <p style={{ textAlign: "justify" }}> Tenho mais de 7 anos de experiência em produção de conteúdo, PR, marketing e publicidade. </p>
+          <p style={{ textAlign: "justify" }}> Além de tentar subir de nível nas canções de ninar, sou apaixonado por: </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+            🌐 Tecnologia
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+            🎥 Documentários
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+            🌊 Praia
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Entregue o máximo com o tempo e recursos disponíveis"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Gabriel Ribeiro</footer>
         </blockquote>
       </Card.Body>
     </Card>

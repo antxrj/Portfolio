@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bioparque from "../../Assets/Projects/bioparque.jpg";
+import match from "../../Assets/Projects/match.png";
+import cel from "../../Assets/Projects/cel.jpg"
+import hipo from "../../Assets/Projects/hipo.jpg"
+import dasa from "../../Assets/Projects/dasa.jpg"
+import b9 from "../../Assets/Projects/b9.jpg"
 
 function Projects() {
   return (
@@ -15,70 +15,68 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+       Confira alguns trabalhos
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+        O <strong className="purple">melhor amigo</strong> do gestor de tráfego e do diretor de arte.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={bioparque}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="BioParque do Rio 1 ano"
+              description="KV do primeiro aniversário do BioParque do Rio. Mote criativo e redação desenvolvidos em parceria com direção de arte. Trabalho para todos os formatos. Da Big Ideia aos desdobramentos offline e digital, incluindo Meta Ads e Google Ads."
+              link="https://drive.google.com/file/d/1KVQQIFGel-0qYZ66xpHai7fpY36NKld0/view?usp=sharing"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={match}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Deu Match"
+              description="Uma campanha. Dois produtos totalmente diferentes. Ideia partiu de um conceito simples, mas que tá na cabeça da geração Z: o primeiro passo para ter sorte no amor é DAR MATCH, assim com o combo perfeito entre o Aquario + Cristo Redentor. Trabalho envolveu toda a criação da campanha em conjnunto com os diretores de arte, os desdobramentos para social media, publicidade digital e ação integrada via e-mail marketing."
+              link="https://drive.google.com/file/d/1MPJvk3XXw4EXP9xEudL7rQZddmL5sqpw/view?usp=share_link"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={cel}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="OOH"
+              description="Campanha institucional do CEL Intercultural School. Objetivo era dar mais visibilidade às unidades da escola no Jardim Botânico/RJ. O conceito também apresenta uma nova identidade visual. Para isso, pensamos em trazer personagens que exemplificassem o mote 'Da creche às melhores universidades'. Nesse projeto, além da redação para mídias do bairro, como bancas e jornais locais, coordenei o shooting que serviu de base para os desdobramentos."
+              link="https://drive.google.com/file/d/1eZEX0Iz0lJ2gPV0D6-YUDC0h0FUyV9B3/view?usp=share_link"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={hipo}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Viral Peso-Pesado"
+              description="Celebridades. Projeto de comunicação 360 para o mês dos namorados do BioParque do Rio. A Big Idea partiu do casal de hipopótamos Tim e Bocão. O objetivo era atrair mais visitantes para o parque. A partir daí foi elaborado um plano com ações multiplataforma. Uma série no YouTube e Blog, storytelling nativo para as redes sociais, publicidade, PR e campanha via automação de marketing. Até um clone da Lock Bridge de Paris foi inaugurado por lá. O resultado não poderia ser diferente. Viralizou nas redes sociais, gerou repercussão na imprensa e engajamento do público que fez questão de ir até o local registrar o momento."      link="https://www.instagram.com/p/Ce646Kojqkn/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={dasa}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Caçador de boas histórias"
+              description="Mais do que release é relacionamento. PR para marcas como Dasa, Sinergia Educação, Startup Weekend e Endeavor. Gerenciamento de crise, treinamento de porta-vozes, Q&A, approach com jornalistas e gestão de campanhas com influenciadores. Visão estratégica para construir e proteger a reputação da sua empresa. A imagem traz um case de sucesso da equipe do Hospital São Lucas Copacabana @ Dasa."
+              link="https://drive.google.com/drive/folders/1v0HlG6-Sfx_LuooruagjA7Ishmx7a6wG?usp=sharing"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={b9}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Hard & Soft News"
+              description="Faro para notícia. Redação ágil, com apuração detalhada e precisa. Mais de 5 anos de atuação no jornalismo com passagens pela Globo.com, B9, AndroidPit e iniciativas do terceiro setor como o FaveladaRocinha.com. Cobertura de eventos inloco e de forma remota, como Apple WWDC, Google I/O e CES."
+              link="https://drive.google.com/drive/folders/1y_FyfXaoXEwjQxtk_E1bA7PY2S2thySl?usp=sharing"
             />
           </Col>
         </Row>
