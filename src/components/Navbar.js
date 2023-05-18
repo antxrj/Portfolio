@@ -15,6 +15,8 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { IoLogoWhatsapp } from "react-icons/io"
+import {TbPhoneCall} from "react-icons/tb"
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -90,7 +92,18 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Currículo
               </Nav.Link>
-            </Nav.Item>    
+            </Nav.Item>
+
+            <Nav.Item>
+              <Button
+                href="https://api.whatsapp.com/send/?phone=5521996332990&text=Oi%21+Vi+o+seu+portf%C3%B3lio+e+quero+entrar+em+contato.+Vamos+conversar%3F&type=phone_number&app_absent=0"
+                target="_blank"
+              >
+                <TbPhoneCall style= {{ fontisize: "1.2em" }} /> {" "}
+                <IoLogoWhatsapp style={{ fontSize: "1.2em" }} />{" "}
+                
+              </Button>
+            </Nav.Item>      
 
           </Nav>
         </Navbar.Collapse>
