@@ -18,16 +18,16 @@ function Home2() {
               UM POUCO<span className="purple"> SOBRE </span> MIM
             </h1>
             <p className="home-about-body">
-              Redator, publicitário, analista de marketing. Comunicação em diversos formatos para encantar, engajar, converter... 
+              Redator, publicitário, analista de marketing. Comunicação para encantar, engajar, converter... 
               e, claro, sem deixar a diversão de lado. 🤷‍♂️
               <br />
-              <br />Sou graduado em Comunicação com experiência em
-                <b className="purple"> Inbound Marketing, Social Media </b> e <b className="purple">Assessoria de Imprensa. </b>
+              <br />Tenho experiência em produção de conteúdo para diversos formatos e canais:
+                <b className="purple"> Jornalismo </b>, <b className="purple"> Inbound Marketing </b>,  <b className="purple"> Social Media </b> e <b className="purple"> Assessoria de Imprensa </b>.
               <br />
               <br />
                Meus interesses em <b className="purple">Marketing</b> e <b className="purple"> Comunicação</b> estão em áreas como 
                 {" "}
-                <b className="purple"> Automação</b>, <b className="purple"> Ads </b>, <b className="purple"> Social Media </b> e <b className="purple"> Growth
+                <b className="purple"> Automação</b>, <b className="purple"> Ads </b>, <b className="purple"> SEO </b>, <b className="purple"> UX Writing </b> e <b className="purple"> Growth
                 </b>.
               <br />
               <br />
@@ -36,8 +36,9 @@ function Home2() {
                 <b className="purple">
                   {" "}
                   Hubspot
-                </b> e possuo conhecimentos em ferramentas de insights como
-                <b className="purple"> Google Analytics, Search Console</b> e <b className="purple">SEM Rush</b>.
+                </b> e 
+                <b className="purple"> Content Marketing </b>. Também tenho habilidade em ferramentas como
+                <b className="purple"> Google Analytics </b> , <b className="purple"> Search Console</b>  e <b className="purple">SEM Rush</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
