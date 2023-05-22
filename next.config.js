@@ -2,21 +2,22 @@ module.exports = {
     async redirects() {
       return [
         {
-          source: '/about',
-          destination: '/sobre',
+          source: 'https://gabriel-ribeiro.com/about',
+          destination: 'https://gabriel-ribeiro.com/sobre',
           permanent: true,
         },
         {
-          source: '/resume',
-          destination: '/curriculo',
+          source: 'https://gabriel-ribeiro.com/resume',
+          destination: 'https://gabriel-ribeiro.com/curriculo',
           permanent: true,
         },
         {
-          source: '/projects',
-          destination: '/case',
+          source: 'https://gabriel-ribeiro.com/projects',
+          destination: 'https://gabriel-ribeiro.com/case',
           permanent: true,
         },
       ];
     },
   };
+  
   
