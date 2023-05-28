@@ -2,27 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gabriel-ribeiro.com/home</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2023-28-05</lastmod>
   </url>
   <url>
     <loc>https://gabriel-ribeiro.com/sobre</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2023-28-05</lastmod>
   </url>
   <url>
     <loc>https://gabriel-ribeiro.com/cases</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2023-28-05</lastmod>
   </url>
   <url>
     <loc>https://gabriel-ribeiro.com/curriculo</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2023-28-05</lastmod>
   </url>
   <url>
     <loc>https://blog.gabriel-ribeiro.com</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2023-28-05</lastmod>
   </url>
 </urlset>
