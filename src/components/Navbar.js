@@ -14,6 +14,7 @@ import {
 import { CgFileDocument } from "react-icons/cg";
 import { IoLogoWhatsapp } from "react-icons/io"
 import {TbPhoneCall} from "react-icons/tb"
+import {FaBlog} from "react-icons/fa"
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -90,6 +91,18 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Currículo
               </Nav.Link>
             </Nav.Item>
+
+            <Nav.Item>
+  <Nav.Link
+    href="https://blog.gabriel-ribeiro.com/?utm_source=site&utm_medium=organico&utm_campaign=Always"
+    onClick={() => updateExpanded(false)}
+    target="_blank"
+   
+  >
+    <FaBlog style={{ marginBottom: "2px" }} /> Blog
+  </Nav.Link>
+</Nav.Item>
+
 
             <Nav.Item>
               <Button
