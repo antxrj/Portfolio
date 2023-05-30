@@ -33,7 +33,11 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Baixe o currículo
           </Button>
-        </Row>
+          <p style={{ marginTop: "10px"}}> English version  
+          <a href="https://raw.githubusercontent.com/antxrj/porfolio/main/Resume_Gabriel-Ribeiro.pdf"><b className="purple"> here</b>. </a> 
+          </p> 
+
+        </Row> 
 
         <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
@@ -51,6 +55,11 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Faça o download
           </Button>
+        
+          <p style={{ marginTop: "10px"}}> English version  
+          <a href="https://raw.githubusercontent.com/antxrj/porfolio/main/Resume_Gabriel-Ribeiro.pdf"><b className="purple"> here</b>. </a> 
+          </p> 
+
         </Row>
       </Container>
     </div>
