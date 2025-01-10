@@ -93,18 +93,6 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-  <Nav.Link
-    href="https://blog.gabriel-ribeiro.com/?utm_source=site&utm_medium=organico&utm_campaign=Always"
-    onClick={() => updateExpanded(false)}
-    target="_blank"
-   
-  >
-    <FaBlog style={{ marginBottom: "2px" }} /> Blog
-  </Nav.Link>
-</Nav.Item>
-
-
-            <Nav.Item>
               <Button
                 href="https://api.whatsapp.com/send/?phone=5521996332990&text=Oi%21+Vi+o+seu+portf%C3%B3lio+e+quero+entrar+em+contato.+Vamos+conversar%3F&type=phone_number&app_absent=0"
                 target="_blank"
