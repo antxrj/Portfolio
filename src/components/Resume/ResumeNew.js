@@ -33,7 +33,7 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Baixe o currículo
           </Button>
-          <p style={{ marginTop: "10px"}}> Englis version  
+          <p style={{ marginTop: "10px"}}> English Version  
           <a href="https://raw.githubusercontent.com/antxrj/porfolio/main/Resume_Gabriel-Ribeiro.pdf"><b className="purple"> here</b>. </a> 
           </p> 
 
